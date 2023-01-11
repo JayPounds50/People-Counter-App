@@ -1,0 +1,56 @@
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+h2{
+    margin: 12px auto;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+}
+h1{
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+}
+p {
+    color: white;
+}
+
+
+#block{
+    border: solid 2px grey;
+    padding: 30px;
+    background: linear-gradient(to bottom, grey 20%, black);
+    background-image: url("soheb-zaidi-tgFR67JUcBs-unsplash.jpg");
+    border-radius: 16px;
+    /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); */
+}
+button{
+    width: 40%;
+    height: 40px;
+    padding: 10px;
+    font-weight: bold;
+    display: block;
+    border-radius: 4px;
+    margin: 10px auto;
+}
+#increment-btn{
+    background: rgb(0, 0, 83);
+    color: white;
+    border: solid 2px rgb(0, 0, 180);
+}
+#save-btn{
+    background: green;
+    color: white;
+    border: solid 2px lightgreen;
+}
+div{
+    text-align: center;
+    
+}
+#wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+}
